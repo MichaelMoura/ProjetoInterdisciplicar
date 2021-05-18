@@ -5,8 +5,9 @@
 }
 
 :root{
-    --white: #E1D6D6;
-    --white-500:#f4f4f4;
+    --white: #ffffff;
+    --white-200:#f4f4f4;
+    --white-500: #E1D6D6;
     --black:#554F4F;
     --gray: #4E4E4E;
     --gray--500:#B1B1B1;
@@ -27,7 +28,7 @@
 }
 
 body{
-    background: var(--gray-50);
+    background: var(--white-200);
 }
 
 body,input,textarea,button{
