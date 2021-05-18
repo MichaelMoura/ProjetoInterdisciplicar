@@ -5,6 +5,7 @@
 }
 
 :root{
+    --white: #E1D6D6;
     --black:#554F4F;
     --gray: #4E4E4E;
     --gray--500:#B1B1B1
@@ -43,6 +44,6 @@ h1{
     font-size: 1.5rem;
 }
 
-button{
+button, svg{
     cursor: pointer;
 }
