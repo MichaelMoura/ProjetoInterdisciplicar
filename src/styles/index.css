@@ -134,3 +134,26 @@ h3{
     display: inline-block;
     text-align: center;
 }
+
+.cupom{
+    width: 100%;
+    padding-top: 2rem;
+    border-top: 1px solid var(--gray-200);
+}
+
+.cupom h2{
+    margin-bottom: 1rem;
+}
+
+.cupom-fila{
+    display: flex;
+    gap: 1rem;
+}
+
+.cupom-fila > div{
+    width: 50%;
+}
+
+.cupom-fila img{
+    width: 100%;
+}

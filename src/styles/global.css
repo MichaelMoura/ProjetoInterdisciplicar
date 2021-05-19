@@ -13,7 +13,9 @@
     --gray--500:#B1B1B1;
     --red:#E2072E;
     --green:#43C17D;
-    --gray-200: rgb(220,220,220)
+    --blue:#33B9E3;
+    --gray-200: rgb(220,220,220);
+    --black: rgb(49, 49, 49);
 }
 
 @media (max-width: 1080px){

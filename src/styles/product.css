@@ -1,0 +1,168 @@
+section{
+    padding: 3rem 5%;
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+}
+
+section .produto{
+    width: 50%;
+}
+
+section .box-image img{
+    width: 100%;
+}
+
+section .bullet-queue{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+section .bullet-queue div{
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    background: var(--gray-200);
+}
+
+section .bullet-queue div:nth-of-type(1){
+    background: var(--green);
+}
+
+section .preview-queue{
+    display: flex;
+    width:100%;
+    gap: 0.7rem;
+}
+
+section .preview{
+    width: calc(100%/4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--black);
+}
+
+section .preview img{
+    width:100%;
+}
+
+section .produto h1{
+    margin: 1rem 0;
+    font-size: 2rem;
+}
+
+section .produto .desc{
+    font-size: 1rem;
+}
+
+section .produto ul{
+    padding: 1rem 2rem;
+    color: var(--black);
+}
+
+section .produto .category{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+section .produto .category p{
+    padding: 0.3rem 2rem;
+    border-radius: 10px;
+    color: var(--white);
+    cursor: pointer;
+}
+
+section .produto .category p:nth-of-type(1){
+    background: var(--red);
+}
+
+section .produto .category p:nth-of-type(2){
+    background: var(--blue);
+}
+
+section .produto .value{
+    font-size: 3rem;
+}
+
+section .produto h4{
+    margin: 1rem 0;
+}
+
+section .produto .calc{
+    padding: 0 0.5rem;
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+section .produto input[type='text']{
+    border:0;
+    background: transparent;
+    outline: 0;
+    border-radius: 0;
+    padding: 0.3rem 0;
+    padding-left: 5px;
+    border-bottom: 1px solid black;
+}
+section .produto input[type='button']{
+    background: var(--green);
+    color: var(--white);
+    font-size: 1.5rem;
+    padding: 1rem 7rem;
+    border: 0;
+}
+
+/******/
+
+.outherProducts{
+    flex-direction: column;
+}
+
+section .card-queue{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    overflow-x: hidden;
+    gap: 1rem;
+}
+
+section .card-queue .card{
+    padding: 0.5rem;
+    width: calc(100%/4);
+    background: var(--white);
+}
+
+section .card-queue .card img{
+    width: 100%;
+}
+
+section .card h3{
+    text-align: center;
+    font-size: 1rem;
+}
+
+section .card ul{
+    margin: 0.5rem 0;
+    padding-left: 2rem;
+}
+
+section .card > div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+section .card input[type='button']{
+    margin: 1rem 0;
+    border: 0;
+    color: white;
+    padding: 0.5rem 1rem;
+    background: var(--green);
+}
