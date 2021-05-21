@@ -1,0 +1,104 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 492px;
+    height: 720px;
+    background: #FFFFFF;
+    box-shadow: 3px 7px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 21px;
+}
+
+.tlogin{
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.tlogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 35px;
+    padding-bottom: 50px;
+}
+
+.tinfo input{
+    border: 0;
+    width: 100%;
+    outline: 0;
+    margin-left: 0.5rem;
+    margin: 5px;
+}
+
+p > span{
+    color: red;
+    cursor: pointer;  
+}
+
+.arroba, .cadeado, .nome, .sobrenome, .numerotelefone, .confirmarsenha{
+    display: flex;
+    padding: 2px 0;
+    border-bottom: 1px solid ;
+}
+
+.check{
+    display: flex;
+    align-items: center;
+    font-size: 8pt;
+    margin-top: 1.2rem;
+}
+
+.tlogo img{
+    height: 80px;
+    width: 80px;
+    padding-bottom: 15px;
+}
+
+.tlogo h2{
+    font-family: "IM FELL Double Pica SC";
+    font-size: 22pt;
+    font-weight: 100;
+}
+
+.sizing{
+    width: 300px;
+
+}
+
+#idcadastro{
+    margin-top: 1.5rem;
+    font-size: 12pt;
+    display: flex;
+    justify-content: center;
+}
+
+.logar{
+    margin-top: 22px;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 60px;
+    background-color: #43C17D;
+    color: white;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    font-size: 18pt;
+    padding-top: 16px;
+    cursor: pointer;
+}
+
+.check p{
+    margin-left: 10px;
+}
+
+.check input{
+    width: 10px;
+}
+
+.contaja{
+    padding-top: 5px;
+    cursor: pointer;
+}
